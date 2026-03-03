@@ -1,0 +1,98 @@
+{
+    "roles": {
+        "student": {
+            "description": "Regular student / earner",
+            "permissions": [
+                "portfolio.view",
+                "credential.view",
+                "transcript.view",
+                "chat.use",
+                "endorsement.request",
+                "resume.view",
+                "resume.export",
+                "portfolio.settings",
+                "otp.claim",
+                "directory.browse",
+                "social.share"
+            ]
+        },
+        "issuer": {
+            "description": "Can issue and manage credentials within their department",
+            "permissions": [
+                "portfolio.view",
+                "credential.view",
+                "credential.create",
+                "credential.revoke",
+                "transcript.view",
+                "chat.use",
+                "admin.view",
+                "credentials.manage",
+                "endorsement.approve",
+                "endorsement.request",
+                "bulk.issue",
+                "otp.generate",
+                "evidence.manage",
+                "directory.browse",
+                "social.share"
+            ]
+        },
+        "designer": {
+            "description": "Can create badge designs and manage skill taxonomy",
+            "permissions": [
+                "portfolio.view",
+                "credential.view",
+                "transcript.view",
+                "chat.use",
+                "admin.view",
+                "badge.builder",
+                "badge.design",
+                "skills.manage",
+                "directory.manage",
+                "endorsement.request",
+                "directory.browse"
+            ]
+        },
+        "viewer": {
+            "description": "Read-only access to admin dashboard and reports",
+            "permissions": [
+                "portfolio.view",
+                "credential.view",
+                "transcript.view",
+                "chat.use",
+                "admin.view",
+                "users.view",
+                "audit.view",
+                "endorsement.request",
+                "directory.browse"
+            ]
+        },
+        "moderator": {
+            "description": "Can manage credentials and view users",
+            "permissions": [
+                "portfolio.view",
+                "credential.view",
+                "credential.create",
+                "credential.revoke",
+                "transcript.view",
+                "chat.use",
+                "admin.view",
+                "users.view",
+                "credentials.manage",
+                "endorsement.approve",
+                "endorsement.request",
+                "bulk.issue",
+                "otp.generate",
+                "evidence.manage",
+                "webhooks.manage",
+                "directory.manage",
+                "skills.manage",
+                "directory.browse",
+                "social.share"
+            ]
+        },
+        "admin": {
+            "description": "Full system access including super-admin utilities",
+            "permissions": ["*"]
+        }
+    }
+}

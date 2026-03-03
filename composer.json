@@ -1,0 +1,9 @@
+{
+    "require": {
+        "tecnickcom/tcpdf": "^6.10",
+        "bacon/bacon-qr-code": "^3.0"
+    },
+    "config": {
+        "vendor-dir": "app/lib"
+    }
+}

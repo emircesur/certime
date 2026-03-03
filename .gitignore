@@ -1,0 +1,27 @@
+# Local environment configuration
+.env
+
+# Data files
+/data/db.sqlite
+/data/keys/
+/data/agents/
+/data/sessions/
+/data/portfolios/
+
+# Vendor directory for composer (if used in the future)
+/vendor/
+
+# Backup and temp files
+/backup/
+/tmp/
+*.log
+err.txt
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,2 @@
+# Deny all requests from the web
+Deny from all
